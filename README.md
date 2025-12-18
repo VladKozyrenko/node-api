@@ -77,6 +77,7 @@ Pipeline автоматично запускається при кожному `
 
 ## 🧩 Архітектурна діаграма
 
+```mermaid
 graph TD
     Client[Client / Postman]
     API[Node.js Express API]
@@ -92,6 +93,8 @@ graph TD
     CI --> Tests
 
 ## ▶️ Запуск проєкту
+
+```bash
 
 npm install
 npm run dev
